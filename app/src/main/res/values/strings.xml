@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Experiment</string>
+    <string name="action_settings">Settings</string>
+    <string name="collegename">Oriental Institute of Science and Technology</string>
+    <string name="saying1">Presents</string>
+    <string name="TechAcme">TechAcme</string>
+    <string name="saying2">Central India\'s Largest Science and Technology Festival</string>
+    <string name="saying3">Brought To You by</string>
+    <string name="title_activity_firstactivity">Firstactivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="logo">Logo</string>
+</resources>
