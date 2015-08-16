@@ -22,12 +22,13 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/collegename"
         android:id="@+id/textView"
-        android:textColor="#ffffff"
+        android:textColor="#B40431"
         android:layout_below="@+id/collegeLogo"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:singleLine="false"
-        android:gravity="center" />
+        android:gravity="center"
+        android:fontFamily="serif"/>
 
     <ImageView
         android:layout_width="180dp"
@@ -40,42 +41,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/saying1"
         android:id="@+id/textView2"
-        android:textColor="#ffffff"
+        android:textColor="#B40431"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:id="@+id/logo"
-        android:src="@drawable/lgo"
-        android:layout_marginTop="170dip"
-        android:layout_marginLeft="55dip"
-        android:contentDescription="@string/logo" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/TechAcme"
         android:id="@+id/techAcme"
-        android:textColor="#ffffff"
-        android:layout_toRightOf="@id/logo"
-        android:layout_marginTop="230dip"
+        android:textColor="#5957b4"
+        android:layout_marginTop="200dip"
         android:layout_marginLeft="20dip"
-        android:textStyle="bold" />
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textSize="50dp"
+        android:textStyle="italic|bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/saying3"
         android:id="@+id/brought"
-        android:textColor="#ffffff"
+        android:textColor="#B40431"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="320dip"
+        android:fontFamily="serif"
         />
 
     <ImageButton
@@ -84,8 +79,25 @@
         android:id="@+id/letsStart"
         android:src="@drawable/letsstart"
         android:visibility="visible"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:onClick="onButtonClick" />
+        android:onClick="onButtonClick"
+        android:adjustViewBounds="false"
+        android:backgroundTint="@android:color/transparent"
+        android:cropToPadding="false"
+        android:background="@android:color/transparent"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/date"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/techAcme"
+        android:layout_alignRight="@+id/techAcme"
+        android:layout_alignEnd="@+id/techAcme"
+        android:textColor="#5957b4"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

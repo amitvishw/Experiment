@@ -10,4 +10,11 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_first">FirstActivity</string>
     <string name="logo">Logo</string>
+    <string name="date">16-19 Oct 2015</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="aboutMe">About Me</string>
 </resources>

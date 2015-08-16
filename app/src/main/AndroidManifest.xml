@@ -24,6 +24,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.learn.android.experiment.MainActivity" />
         </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"
+            android:parentActivityName=".FirstActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.learn.android.experiment.FirstActivity" />
+        </activity>
     </application>
 
 </manifest>
